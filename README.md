@@ -74,7 +74,7 @@ Use `/auth/login` or your custom method to generate tokens.
 | Translation | `/translations`          | GET/POST/PUT/DELETE |
 | Tag         | `/tags`                  | GET/POST/PUT/DELETE |
 | Swagger     | `/swagger-ui/index.html` | GET |
-| Auth (if any)| `/auth/login` or similar | POST |
+| Auth        | `/auth/login`            | POST |
 
 ---
 
@@ -95,9 +95,3 @@ Use `/auth/login` or your custom method to generate tokens.
 # Unit & Feature tests
 mvn test
 ```
-
----
-
-## 📝 License
-
-MIT (or your preferred license)
